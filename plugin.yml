@@ -4,3 +4,5 @@ version:  1.0
 commands:
    lol:
      permission: bukkitmeme.lol
+   ragequit:
+     permission: bukkitmeme.ragequit
