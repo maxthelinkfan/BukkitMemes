@@ -2,3 +2,7 @@
 
 # Message for /lol #
 lolmsg: just laughed out loud!
+
+# Message for /ragequit #
+ragequitkickmsg:
+ragequitbroadcastmsg:
