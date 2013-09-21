@@ -1,0 +1,6 @@
+name:  BukkitMemes
+main:  me.bukkitmemes.BukkitMemes.Main
+version:  1.0
+commands:
+   lol:
+     permission: bukkitmeme.lol
