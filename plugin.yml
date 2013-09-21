@@ -6,3 +6,9 @@ commands:
      permission: bukkitmeme.lol
    ragequit:
      permission: bukkitmeme.ragequit
+   rage:
+     permission: bukkitmeme.rage
+   facepalm:
+     permission: bukkitmeme.facepalm
+   bminfo:
+     description: Displays what BukkitMemes version you are running.

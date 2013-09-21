@@ -28,6 +28,8 @@ public class RageQuit implements CommandExecutor {
         	
         	// Broadcast Message
     Bukkit.broadcastMessage(ChatColor.RED + "[Ragequit] " + sender.getName() + " " + rageqbroad);
+    
+    // Kick Player (only for Ragequit)
     p.kickPlayer(ChatColor.RED + " " + rageq);
         }
 		return false;

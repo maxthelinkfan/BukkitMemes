@@ -6,3 +6,9 @@ lolmsg: just laughed out loud!
 # Message for /ragequit #
 ragequitkickmsg:
 ragequitbroadcastmsg:
+
+# Message for /rage #
+ragemsg:
+
+# Message for /facepalm #
+facepalmmsg:
