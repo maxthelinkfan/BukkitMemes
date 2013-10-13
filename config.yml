@@ -4,11 +4,20 @@
 lolmsg: just laughed out loud!
 
 # Message for /ragequit #
-ragequitkickmsg:
-ragequitbroadcastmsg:
+ragequitkickmsg: You mad?
+ragequitbroadcastmsg: has ragequit!
 
 # Message for /rage #
-ragemsg:
+ragemsg: is raging!
 
 # Message for /facepalm #
-facepalmmsg:
+facepalmmsg: just put his hand to his palm.
+
+# Message for /jk #
+jkmsg: is just kidding!
+
+# Message for /rofl #
+roflmsg: is rolling on the floor laughing!
+
+# Message for /iliketrains #
+iliketrainsmsg: likes trains!

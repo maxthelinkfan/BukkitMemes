@@ -12,3 +12,19 @@ commands:
      permission: bukkitmeme.facepalm
    bminfo:
      description: Displays what BukkitMemes version you are running.
+   gf:
+     permission: bukkitmeme.gf
+     usage: /<command> <player>
+   iliketrains:
+     permission: bukkitmeme.iliketrains
+   jk:
+     permission: bukkitmeme.jk
+   fakeop:
+     permission: bukkitmeme.fakeop
+     usage: /<command> <player>
+   haha:
+     permission: bukkitmeme.haha
+     usage: /<command> <msg>
+   odns:
+     permission: bukkitmeme.odns
+     usage: /<command> <msg>
