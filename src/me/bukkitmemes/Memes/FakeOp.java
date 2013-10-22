@@ -10,8 +10,6 @@ import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
-import org.bukkit.potion.PotionEffect;
-import org.bukkit.potion.PotionEffectType;
 
 
 public class FakeOp implements CommandExecutor {
@@ -23,13 +21,27 @@ public class FakeOp implements CommandExecutor {
 	
 	public boolean onCommand(CommandSender sender, Command cmd, String commandLabel, String[] args) {
 		if(commandLabel.equalsIgnoreCase("fakeop") && sender.hasPermission("bukkitmeme.fakeop")){
+			if(args.length == 0){
+				sender.sendMessage(ChatColor.RED + "Please specify a player!");
+				return true;
+			}
+			if(args.length == 1){
+				Player target2 = Bukkit.getServer().getPlayer(args[0]);
+				if(target2 == null){
+					sender.sendMessage(ChatColor.RED + "That player is offline!");
+					return true;
+				}
+				
+			}
+			if(args.length == 1) {
 			Player target = Bukkit.getServer().getPlayer(args[0]);
 		    target.sendMessage(ChatColor.YELLOW + "You are now OP!");
-		    target.addPotionEffect(new PotionEffect(PotionEffectType.POISON, 1, 5));
+		    sender.sendMessage(ChatColor.GREEN + "FakeOP message sent.");
 		    }
-		return false;
 	
 
 
 	}
+		return true;
+}
 }

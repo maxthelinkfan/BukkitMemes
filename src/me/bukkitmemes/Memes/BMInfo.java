@@ -20,7 +20,9 @@ public class BMInfo implements CommandExecutor {
 	public boolean onCommand(CommandSender sender, Command cmd, String commandLabel, String[] args) {
         if(commandLabel.equalsIgnoreCase("bminfo")) {
         	Player p = (Player) sender;
-        	p.sendMessage(ChatColor.GOLD + "[BukkitMemes]" + ChatColor.RED + " You are running BukkitMemes version 1.5");
+        	p.sendMessage(ChatColor.GOLD + "[BukkitMemes]" + ChatColor.RED + " You are running BukkitMemes version 1.5.2");
+        	
+     
         }
 		return false;
 	}

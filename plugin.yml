@@ -14,7 +14,6 @@ commands:
      description: Displays what BukkitMemes version you are running.
    gf:
      permission: bukkitmeme.gf
-     usage: /<command> <player>
    iliketrains:
      permission: bukkitmeme.iliketrains
    jk:
@@ -28,3 +27,5 @@ commands:
    odns:
      permission: bukkitmeme.odns
      usage: /<command> <msg>
+   rofl:
+     permission: bukkitmeme.rofl

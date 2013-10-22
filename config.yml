@@ -1,23 +1,10 @@
 # BukkitMemes Configuration File #
 
-# Message for /lol #
 lolmsg: just laughed out loud!
-
-# Message for /ragequit #
 ragequitkickmsg: You mad?
 ragequitbroadcastmsg: has ragequit!
-
-# Message for /rage #
 ragemsg: is raging!
-
-# Message for /facepalm #
-facepalmmsg: just put his hand to his palm.
-
-# Message for /jk #
+facepalmmsg: just put his face to his palm.
 jkmsg: is just kidding!
-
-# Message for /rofl #
 roflmsg: is rolling on the floor laughing!
-
-# Message for /iliketrains #
 iliketrainsmsg: likes trains!
